@@ -1,0 +1,483 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html,body{
+    cursor: pointer;
+    height: 100%;width: 100%; 
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+#page1{
+    width: 100%;
+    height: 80vh;
+  
+}
+#nav{
+    display: flex;
+    gap: 4vh; 
+    background-color: beige;
+}
+#nav1{
+    margin-left: 20vh;
+   margin-top:4vh;
+    display: flex;
+    gap: 8vh; 
+text-align: center;
+    justify-content: center;
+    font-weight:900;
+}
+#nav1 .menu{
+    display: none;
+}
+#nav input{
+    height: 5vh;
+    width: 40vh;
+    /* background-color: #980c0c; */
+}
+#navimg h1{
+    /* height: 10vh;width: 15vh; */
+   color: seagreen;
+    display: flex;
+    gap: 8vh; 
+text-align: center;
+    justify-content: center;
+    font-family: 'Bad Script', cursive;
+  
+}
+#p2box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3vh;
+}
+#p1box1{
+   /* position: absolute; */
+   /* display: flex; */
+    height: 65vh;
+    width: 68%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(pexels-trần-long-14349057.jpg);
+    /* background-image: url(clay-banks-pfThjuy_jUA-unsplash.jpg); */
+    /* background-image: url(istockphoto-1289732902-1024x1024.jpg); */
+    margin-left: -32%;
+/* background-image: url(depositphotos_35364767-stock-photo-love-in-the-rain.jpg); */
+   /* background-image: url(Screenshot\ \(63\)1.png); */
+    background-color: #b73636;
+}
+.bell{
+    /* position: absolute; */
+    position: fixed;
+    height: 10vh;
+    width: 10vh;
+    margin-left: 94vw;
+    z-index: 999;
+}
+.p1b2{
+    height: 40vh;
+    width: 6vh;
+    position: fixed;
+margin-top: -50vh;
+    margin-left: 96vw;
+    z-index: 999;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+.p1b2 h3{
+   
+ transform: rotate(270deg);
+}
+#p1btn{
+    display: flex;
+    justify-content: center;
+    gap: 66.5vh;
+    align-items: center;
+    margin-left: 27.4%;
+    margin-top: 49.5vh;
+}
+#p1box1 button{
+    /* display: flex; */
+    justify-content: space-between;
+    /* flex-direction: row; */
+font-size: 5vh;
+font-size: 5vh;
+gap: 35vh;
+}
+/* ===================================================================== */
+#page2{
+    height: 85%;width: 100%;
+    background: rgb(214,149,211);
+    background: radial-gradient(circle, rgba(214,149,211,0.1528944341408438) 4%, rgba(38,230,206,0.4161997562696954) 40%, rgba(244,106,221,0.6346871512276786) 100%); 
+}
+#p2header{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    
+    /* margin-top: 5vh; */
+}
+#p2header h1{
+margin-top: 0vh;
+font-size: 10vh;
+font-weight: 600;
+
+}
+#p2header button{
+    font-size: 4vh;
+font-size: 4vh;
+background-color: rgba(35,66,61,255);
+color: white;
+margin-top: 1vh;
+border-radius: 1vh;
+}
+#p2box1{
+    height: 30vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+}
+#p2box2{
+    height: 30vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+}
+.box{
+    height: 30vh;width: 10%;
+    background-size: cover;
+}
+/* .box:hover{
+    transform: scale(1.2);
+} */
+.box1{
+    background-image: url(https://images.pexels.com/photos/12484292/pexels-photo-12484292.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box2{
+    background-image: url(https://images.pexels.com/photos/3289711/pexels-photo-3289711.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box3{
+    background-image: url(https://images.pexels.com/photos/1721047/pexels-photo-1721047.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box4{
+    background-image: url(https://images.pexels.com/photos/7685717/pexels-photo-7685717.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box5{
+    background-image: url(https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box6{
+    background-image: url(https://images.pexels.com/photos/236900/pexels-photo-236900.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+ .box7{
+    background-image: url(https://images.pexels.com/photos/6186813/pexels-photo-6186813.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box8{
+    background-image: url(https://media.istockphoto.com/id/1355399132/photo/model-showing-her-beautiful-necklace-with-diamond-pendant.jpg?b=1&s=612x612&w=0&k=20&c=2HToo9ZI_6Fs20S0HRroACbBIYwgnbeWXb9Ype61FZw=);
+ 
+}
+.box9{
+    background-image: url(https://images.pexels.com/photos/14438166/pexels-photo-14438166.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box10{
+    background-image: url(https://images.pexels.com/photos/1232459/pexels-photo-1232459.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box11{
+    background-image: url(https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box12{
+    background-image: url(https://images.pexels.com/photos/3761020/pexels-photo-3761020.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box13{
+    background-image: url(https://images.pexels.com/photos/745767/pexels-photo-745767.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box14{
+    background-image: url(https://images.pexels.com/photos/13022464/pexels-photo-13022464.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box15{
+    background-image: url(https://images.pexels.com/photos/2735981/pexels-photo-2735981.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box16{
+    background-image: url(https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box17{
+    background-image: url(https://images.pexels.com/photos/1375849/pexels-photo-1375849.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box18{
+    background-image: url(https://media.istockphoto.com/id/1287817457/photo/man-stands-in-a-t-shirt-and-shorts-in-his-hands-holding-his-shoes-against-background-of-sea.jpg?b=1&s=612x612&w=0&k=20&c=hg6c6ynoea-_U_rXWIHjIHMVCHBTOKuMCs4KArdEEhw=);
+}
+.box19{
+    background-image: url(https://media.istockphoto.com/id/899732694/photo/usb-drive.jpg?b=1&s=612x612&w=0&k=20&c=qw9_T9_Xf0fm47C4mPn5QC3wsGpKADcZRscbDOXfCcA=);
+}
+.box20{
+    background-image: url(https://images.pexels.com/photos/1574898/pexels-photo-1574898.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+#page3{
+    height: 100%;width: 100%;
+    background: rgb(214,149,211);
+    background: radial-gradient(circle, rgba(214,149,211,0.1528944341408438) 4%, rgba(38,230,206,0.4161997562696954) 40%, rgba(244,106,221,0.6346871512276786) 100%); 
+}
+#p3box1{
+    margin-top: 5vh;
+    height: 30vh;
+    width: 100%;
+    background-color: #147b9b;
+    display: flex;
+}
+#p3box2{
+    height: 30vh;
+    width: 100%;
+    background-color: #b1cb33;
+    display: flex;
+}
+
+.box21{
+    background-image: url(https://images.unsplash.com/photo-1559563458-527698bf5295?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWNjZXNzb3JpZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+
+}
+.box22{
+    background-image: url(https://media.istockphoto.com/id/957871856/photo/indian-saree-wedding-dress-and-blouse-hanging-on-the-wooden-wall.jpg?s=612x612&w=0&k=20&c=tEX86_w99RReOXHGzxAbVB31cZbMAXrTCFEysnSwrLg=);
+
+}
+.box23{
+background-image: url(https://images.unsplash.com/photo-1590548784585-643d2b9f2925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFjY2Vzc29yaWVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+}
+.box24{
+    background-image: url(https://media.istockphoto.com/id/611997004/photo/indian-traditional-gold-necklace.jpg?s=612x612&w=0&k=20&c=pKD2qzNYriUmQVh425jA9Kaa4n2lFQmIuHVAOMSvqgs=);
+
+}
+.box25{
+    background-image: url(https://media.istockphoto.com/id/1263504114/photo/black-headphone-on-red-background.jpg?s=612x612&w=0&k=20&c=dQPt8bTEzV0MRSYynlvf6_4OES8dX4G3fjoQmE8qPpE=);
+
+}
+.box26{
+    background-image: url(https://media.istockphoto.com/id/1085527564/photo/blank-smart-phone-pop-socket-stand-and-holder-for-branding-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=-QUTx1XEj8nvJ7sW32vYLGwmeMj5HkS-myHfCzLZShk=);
+
+}
+.box27{
+    background-image: url(https://media.istockphoto.com/id/1170073827/photo/gamer-work-space-concept-top-view-a-gaming-gear-mouse-keyboard-joystick-headset-mobile.jpg?s=612x612&w=0&k=20&c=OqQ7urHJOSUbKO5tD61SMxyywHLDZFo6dSDXw3DOoX0=);
+
+}
+.box28{
+    background-image: url(https://media.istockphoto.com/id/945992874/photo/close-up-of-a-large-natural-plant-fibre-jute-burlap-bags-eco-friendly-reusable-in-natural.jpg?s=612x612&w=0&k=20&c=R3G7rmVLBSdXzYpOvlxr5TYjZ_UzDtp4QrPEqpFo6KE=);
+
+}
+.box29{
+    background-image: url(https://media.istockphoto.com/id/1394417192/photo/blank-cat-dog-id-tag-name-pendant-necklace-collar-mockup.jpg?s=612x612&w=0&k=20&c=Eo8D5M3Sc89FMRz3SQyU4r4ZlZ4OC76KP3HvpGtW2fw=);
+
+}
+.box30{
+    background-image: url(https://media.istockphoto.com/id/1312289685/photo/diamond-and-white-gold-necklace-set.jpg?s=612x612&w=0&k=20&c=IUDT_ekPhHlsnLhLDHp7Xotu-Yv5BvBRe4aDtLKaSOI=);
+
+}
+.box31{
+    background-image: url(https://media.istockphoto.com/id/951093320/photo/blank-lanyard-with-metal-snap-hook-and-detachable-plastic-buckle-for-print-design-presentation.jpg?s=612x612&w=0&k=20&c=f33wyDmnK4CQoJcALlEuTjeNHLWa2VCLBgr4BGVbDK8=);
+
+}
+.box32{
+    background-image: url(https://media.istockphoto.com/id/1220520535/photo/alarm-clock-on-table-with-woman-sleeping-on-background.jpg?s=612x612&w=0&k=20&c=v5F9SCJ3CLPT--15d5lGK9cygu0tmKn1srVSUq-2Ol0=);
+
+}
+.box33{
+    background-image: url(https://media.istockphoto.com/id/1453261778/photo/workout-bottle.jpg?s=612x612&w=0&k=20&c=2sqE9I0rSpiQUn1KECP8CNBO_O7uN8oF1Uw2aStyHhI=);
+
+}
+.box34{
+background-image: url(https://images.unsplash.com/photo-1568663521381-33b7c467fda0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdvbWVucyUyMGJyYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+.box35{
+    background-image: url(https://media.istockphoto.com/id/1417970847/photo/portrait-of-beautiful-woman-smiling.jpg?s=612x612&w=0&k=20&c=_89eR0g8RaNmCB03Mv3C8ejPka4DrH0z6ISj6QWsnDg=);
+
+}
+.box36{
+    background-image: url(https://media.istockphoto.com/id/1417996600/photo/portrait-of-beautiful-indian-woman.jpg?s=612x612&w=0&k=20&c=_gF06GYGkPBG4Gna6CbFYfHoHVQFfwhzRkFjygis0Mw=);
+
+}
+.box37{
+    background-image: url(https://images.unsplash.com/photo-1541182311535-f31f1aa15d12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lbnMlMjB1bmRlcndlYXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+
+}
+.box38{
+    background-image: url(https://images.unsplash.com/photo-1524255684952-d7185b509571?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvbWVucyUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+
+}
+.box39{
+    background-image: url(https://media.istockphoto.com/id/1418172771/photo/portrait-of-beautiful-indian-woman-in-traditional-clothing.jpg?s=612x612&w=0&k=20&c=jMIpwxBSmWxQRE6wpR80smK96RPn9sWnEqeQ7JKpeuA=);
+
+}
+.box40{
+    background-image: url(https://images.unsplash.com/photo-1615292215322-84c7b9ec441b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVucyUyMHVuZGVyd2VhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+}
+
+#page4{
+    background-color: rgba(250,251,252,255);
+    height: 100%;width: 100%;
+}
+#p4box1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+  /* background-color: #9a2c2c; */
+    justify-content: center;
+    gap: 5vh;
+    /* background-color: #b73636; */
+}
+.boxs{
+    margin-top: 5vh;
+    height: 60%;
+    width: 20%;
+
+}
+#pic{
+    display: flex;
+}
+.img1{
+    height: 10vh;width: 24vh;
+}
+.img2
+{
+    height: 10vh;width: 20vh;
+}
+.img3{
+    height: 10vh;width: 26vh;
+}
+.img4{
+    height: 8vh;width: 10vh;
+    margin-left: -5%;
+}
+.box44 h4{
+    margin-top: -20%;
+    margin-left: 17%;
+ 
+}
+.box44 h5{
+  margin-top: -14%;
+    margin-left: 17%;
+ 
+}
+#p4box2{
+    height: 30%;
+    margin-left: 15vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #b1cb33; */
+
+}
+#p4box3{
+    height: 10%;
+    margin-left: 15vh;
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+
+}
+/* #p2box1{
+    display: none;
+} */
+
+@media screen and (max-width:600px) and (min-width:300px){
+    /* font size , padding margin aaye baha - vmax
+    and yaha pe width height ki bat aaye baha - vh vw */
+    #page1{
+        width: 100%;
+        height: 80vh;
+      
+    }
+    #nav{
+        height: 5vh; width: 5vh;
+        ;
+        display: flex;
+        gap: 4vh; 
+        background-color: beige;
+    }
+    #nav1{
+        margin-left: 20vh;
+       margin-top:2vh;
+        display: flex;
+        gap: 8vh; 
+    text-align: center;
+        justify-content: center;
+    }
+    #nav1 a{
+       display: none;}
+    
+       
+    #nav input{
+        height: 3vh;
+        width: 15vh;
+        margin-left: -20vh;
+        /* background-color: #980c0c; */
+    }
+    #nav .menu{
+        display: flex;
+    }
+    #nav img{
+        height: 5vh;width: 5vh;
+      
+    }
+  
+    #p1box1{
+       /* position: absolute; */
+       display: flex;
+        height: 95vw;
+        width: 80vw;
+        background-repeat: no-repeat;
+        justify-content: center;
+        background-size: cover;
+       background-image: url(jon-ly-Xn7GvimQrk8-unsplash.jpg);
+        /* background-color: #b73636;
+        .
+         */
+        /* display: none; */
+    }
+    #p1btn{
+        display: flex;
+        justify-content: center;
+        gap: 66.5vh;
+        align-items: center;
+        margin-left: 27.4%;
+        margin-top: 49.5vh;
+    }
+    #p1box1 button{
+        /* display: flex; */
+        justify-content: space-between;
+        /* flex-direction: row; */
+    font-size: 5vh;
+    font-size: 5vh;
+    gap: 35vh;
+    }
+    #p2b1bg{
+        width: 100%;
+        height: 65vh;
+        overflow-x: scroll;
+        overflow-y:hidden;
+   
+    }
+    #p2box1{
+     width: 150%;
+     height: 100vh;
+     /* background-color: #de1212; */
+  ;
+
+    }
+    #p2box1::-webkit-scrollbar{
+        display: none;
+    }
+    #p2box{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3vh;
+    }
+}
